@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA16EF472BA8ECEA006EACF1 /* SignInAppleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA16EF462BA8ECEA006EACF1 /* SignInAppleHelper.swift */; };
 		FA5058D52B8754E600536106 /* HendraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5058D42B8754E600536106 /* HendraApp.swift */; };
 		FA5058D72B8754E600536106 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5058D62B8754E600536106 /* ContentView.swift */; };
 		FA5058D92B8754E700536106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5058D82B8754E700536106 /* Assets.xcassets */; };
@@ -16,6 +17,41 @@
 		FA5058ED2B8754E800536106 /* HendraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5058EC2B8754E800536106 /* HendraTests.swift */; };
 		FA5058F72B8754E800536106 /* HendraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5058F62B8754E800536106 /* HendraUITests.swift */; };
 		FA5058F92B8754E800536106 /* HendraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5058F82B8754E800536106 /* HendraUITestsLaunchTests.swift */; };
+		FA5059192B87641F00536106 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA5059182B87641F00536106 /* GoogleService-Info.plist */; };
+		FA50591C2B87662A00536106 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FA50591B2B87662A00536106 /* FirebaseAuth */; };
+		FA50591E2B87663A00536106 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FA50591D2B87663A00536106 /* GoogleSignInSwift */; };
+		FA5059202B87676D00536106 /* SUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50591F2B87676D00536106 /* SUser.swift */; };
+		FA5059222B87686F00536106 /* FirebaseAuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5059212B87686F00536106 /* FirebaseAuthAPI.swift */; };
+		FA5059252B877BC600536106 /* GoogleSignData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5059242B877BC600536106 /* GoogleSignData.swift */; };
+		FA5059282B88A22D00536106 /* AuthentificationManager + Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5059272B88A22D00536106 /* AuthentificationManager + Account.swift */; };
+		FA50592A2B88B02800536106 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5059292B88B02800536106 /* CreateAccountView.swift */; };
+		FA50592C2B88B40300536106 /* UserData + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50592B2B88B40300536106 /* UserData + Helper.swift */; };
+		FA50592E2B88B82400536106 /* Predicate + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50592D2B88B82400536106 /* Predicate + Helper.swift */; };
+		FA5059312B88C69300536106 /* Color + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5059302B88C69300536106 /* Color + Helper.swift */; };
+		FA5059342B892B4D00536106 /* View + modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5059332B892B4D00536106 /* View + modifiers.swift */; };
+		FA5059372B89485100536106 /* APIAuthErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5059362B89485100536106 /* APIAuthErrors.swift */; };
+		FA50593B2B8D068C00536106 /* AuthentifcationManager + Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50593A2B8D068C00536106 /* AuthentifcationManager + Helper.swift */; };
+		FA50593D2B8D0E9D00536106 /* AuthPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50593C2B8D0E9D00536106 /* AuthPublisher.swift */; };
+		FA50593F2B8D2C9100536106 /* LoginPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50593E2B8D2C9100536106 /* LoginPageView.swift */; };
+		FA6083762B8DC20F003039B7 /* SigninGoogleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6083752B8DC20F003039B7 /* SigninGoogleHelper.swift */; };
+		FA6083802B8E2F62003039B7 /* Nunito.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA60837F2B8E2F62003039B7 /* Nunito.ttf */; };
+		FA6083842B8F3EDB003039B7 /* VerificationAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6083832B8F3EDB003039B7 /* VerificationAccountView.swift */; };
+		FA707E622B96663400B5B5FF /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA707E612B96663400B5B5FF /* Network.swift */; };
+		FA707E662B97E68500B5B5FF /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FA707E652B97E68500B5B5FF /* FirebaseFirestoreSwift */; };
+		FA707E6D2B9A06F900B5B5FF /* CreateAccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA707E6C2B9A06F900B5B5FF /* CreateAccountButton.swift */; };
+		FA707E702B9A24E400B5B5FF /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA707E6F2B9A24E400B5B5FF /* LoginButtonView.swift */; };
+		FA707E742B9BC83300B5B5FF /* HomePageview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA707E732B9BC83300B5B5FF /* HomePageview.swift */; };
+		FA762BFA2B912D2D0096F32D /* ClockModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA762BF92B912D2D0096F32D /* ClockModelManager.swift */; };
+		FA762BFD2B9284B90096F32D /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA762BFC2B9284B90096F32D /* UserManager.swift */; };
+		FA762BFF2B9288010096F32D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FA762BFE2B9288010096F32D /* FirebaseFirestore */; };
+		FA762C052B93642C0096F32D /* FirestoreUserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA762C042B93642C0096F32D /* FirestoreUserAPI.swift */; };
+		FAA98D7D2B90F70D0097140F /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA98D7C2B90F70D0097140F /* Package.swift */; };
+		FAF351DF2B9C742000CCD0A5 /* ForgetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF351DE2B9C742000CCD0A5 /* ForgetPasswordView.swift */; };
+		FAF351E12B9CB4E300CCD0A5 /* AuthentificationManager + ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF351E02B9CB4E300CCD0A5 /* AuthentificationManager + ForgotPassword.swift */; };
+		FAF351E32B9CE28C00CCD0A5 /* FirestoreDocPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF351E22B9CE28C00CCD0A5 /* FirestoreDocPublisher.swift */; };
+		FAF351E52B9CE2BA00CCD0A5 /* FirestoreCollectionPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF351E42B9CE2BA00CCD0A5 /* FirestoreCollectionPublisher.swift */; };
+		FAF351E72B9CE30700CCD0A5 /* FirestoreDocQueryPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF351E62B9CE30700CCD0A5 /* FirestoreDocQueryPublisher.swift */; };
+		FAF351E92B9D22C900CCD0A5 /* PasswordChangView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF351E82B9D22C900CCD0A5 /* PasswordChangView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +72,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA16EF462BA8ECEA006EACF1 /* SignInAppleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInAppleHelper.swift; sourceTree = "<group>"; };
 		FA5058D12B8754E600536106 /* Hendra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hendra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5058D42B8754E600536106 /* HendraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HendraApp.swift; sourceTree = "<group>"; };
 		FA5058D62B8754E600536106 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +87,38 @@
 		FA5058F22B8754E800536106 /* HendraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HendraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5058F62B8754E800536106 /* HendraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HendraUITests.swift; sourceTree = "<group>"; };
 		FA5058F82B8754E800536106 /* HendraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HendraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA5059182B87641F00536106 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Documents/info p-list/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA50591F2B87676D00536106 /* SUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUser.swift; sourceTree = "<group>"; };
+		FA5059212B87686F00536106 /* FirebaseAuthAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthAPI.swift; sourceTree = "<group>"; };
+		FA5059242B877BC600536106 /* GoogleSignData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignData.swift; sourceTree = "<group>"; };
+		FA5059272B88A22D00536106 /* AuthentificationManager + Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AuthentificationManager + Account.swift"; sourceTree = "<group>"; };
+		FA5059292B88B02800536106 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		FA50592B2B88B40300536106 /* UserData + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserData + Helper.swift"; sourceTree = "<group>"; };
+		FA50592D2B88B82400536106 /* Predicate + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Predicate + Helper.swift"; sourceTree = "<group>"; };
+		FA5059302B88C69300536106 /* Color + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Helper.swift"; sourceTree = "<group>"; };
+		FA5059332B892B4D00536106 /* View + modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + modifiers.swift"; sourceTree = "<group>"; };
+		FA5059362B89485100536106 /* APIAuthErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIAuthErrors.swift; sourceTree = "<group>"; };
+		FA50593A2B8D068C00536106 /* AuthentifcationManager + Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AuthentifcationManager + Helper.swift"; sourceTree = "<group>"; };
+		FA50593C2B8D0E9D00536106 /* AuthPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPublisher.swift; sourceTree = "<group>"; };
+		FA50593E2B8D2C9100536106 /* LoginPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageView.swift; sourceTree = "<group>"; };
+		FA6083752B8DC20F003039B7 /* SigninGoogleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninGoogleHelper.swift; sourceTree = "<group>"; };
+		FA60837F2B8E2F62003039B7 /* Nunito.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nunito.ttf; sourceTree = "<group>"; };
+		FA6083832B8F3EDB003039B7 /* VerificationAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationAccountView.swift; sourceTree = "<group>"; };
+		FA707E612B96663400B5B5FF /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		FA707E6C2B9A06F900B5B5FF /* CreateAccountButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountButton.swift; sourceTree = "<group>"; };
+		FA707E6F2B9A24E400B5B5FF /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
+		FA707E732B9BC83300B5B5FF /* HomePageview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageview.swift; sourceTree = "<group>"; };
+		FA762BF92B912D2D0096F32D /* ClockModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockModelManager.swift; sourceTree = "<group>"; };
+		FA762BFC2B9284B90096F32D /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		FA762C042B93642C0096F32D /* FirestoreUserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreUserAPI.swift; sourceTree = "<group>"; };
+		FAA98D7C2B90F70D0097140F /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		FAA98D7E2B90F8E90097140F /* GroupActivities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GroupActivities.framework; path = System/Library/Frameworks/GroupActivities.framework; sourceTree = SDKROOT; };
+		FAF351DE2B9C742000CCD0A5 /* ForgetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordView.swift; sourceTree = "<group>"; };
+		FAF351E02B9CB4E300CCD0A5 /* AuthentificationManager + ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AuthentificationManager + ForgotPassword.swift"; sourceTree = "<group>"; };
+		FAF351E22B9CE28C00CCD0A5 /* FirestoreDocPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreDocPublisher.swift; sourceTree = "<group>"; };
+		FAF351E42B9CE2BA00CCD0A5 /* FirestoreCollectionPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreCollectionPublisher.swift; sourceTree = "<group>"; };
+		FAF351E62B9CE30700CCD0A5 /* FirestoreDocQueryPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreDocQueryPublisher.swift; sourceTree = "<group>"; };
+		FAF351E82B9D22C900CCD0A5 /* PasswordChangView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChangView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +126,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA50591C2B87662A00536106 /* FirebaseAuth in Frameworks */,
+				FA50591E2B87663A00536106 /* GoogleSignInSwift in Frameworks */,
+				FA762BFF2B9288010096F32D /* FirebaseFirestore in Frameworks */,
+				FA707E662B97E68500B5B5FF /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +157,7 @@
 				FA5058EB2B8754E800536106 /* HendraTests */,
 				FA5058F52B8754E800536106 /* HendraUITests */,
 				FA5058D22B8754E600536106 /* Products */,
+				FA50591A2B87662A00536106 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,14 +174,20 @@
 		FA5058D32B8754E600536106 /* Hendra */ = {
 			isa = PBXGroup;
 			children = (
-				FA5058D42B8754E600536106 /* HendraApp.swift */,
+				FA60837D2B8E2EDD003039B7 /* Font */,
 				FA5058D62B8754E600536106 /* ContentView.swift */,
+				FA5058D42B8754E600536106 /* HendraApp.swift */,
+				FA5059082B875EDA00536106 /* View */,
+				FA5059112B875FBC00536106 /* Firebase */,
+				FA50590E2B875F6B00536106 /* Core Data */,
+				FA5059092B875EE300536106 /* View Model */,
 				FA5058D82B8754E700536106 /* Assets.xcassets */,
-				FA5058DD2B8754E700536106 /* Persistence.swift */,
-				FA5058E22B8754E700536106 /* Hendra.entitlements */,
 				FA5058E32B8754E700536106 /* Info.plist */,
+				FA5059182B87641F00536106 /* GoogleService-Info.plist */,
 				FA5058DF2B8754E700536106 /* Hendra.xcdatamodeld */,
+				FA5058E22B8754E700536106 /* Hendra.entitlements */,
 				FA5058DA2B8754E700536106 /* Preview Content */,
+				FAA98D7C2B90F70D0097140F /* Package.swift */,
 			);
 			path = Hendra;
 			sourceTree = "<group>";
@@ -137,6 +217,160 @@
 			path = HendraUITests;
 			sourceTree = "<group>";
 		};
+		FA5059072B875EBF00536106 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FA50591F2B87676D00536106 /* SUser.swift */,
+				FA5059242B877BC600536106 /* GoogleSignData.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FA5059082B875EDA00536106 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA707E732B9BC83300B5B5FF /* HomePageview.swift */,
+				FA6083722B8DBF70003039B7 /* authentification */,
+				FA5059322B892B3800536106 /* utility */,
+				FA707E612B96663400B5B5FF /* Network.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA5059092B875EE300536106 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA50593C2B8D0E9D00536106 /* AuthPublisher.swift */,
+				FAF351E42B9CE2BA00CCD0A5 /* FirestoreCollectionPublisher.swift */,
+				FAF351E22B9CE28C00CCD0A5 /* FirestoreDocPublisher.swift */,
+				FAF351E62B9CE30700CCD0A5 /* FirestoreDocQueryPublisher.swift */,
+				FA707E6B2B99ED3700B5B5FF /* auth */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		FA50590E2B875F6B00536106 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				FA5058DD2B8754E700536106 /* Persistence.swift */,
+				FA50590F2B875F9D00536106 /* Model */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		FA50590F2B875F9D00536106 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA50592F2B88B8D600536106 /* data conversion helper */,
+				FA50592B2B88B40300536106 /* UserData + Helper.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA5059112B875FBC00536106 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				FA762C032B9359270096F32D /* firebase auth */,
+				FA762BFB2B9284A80096F32D /* firestore */,
+				FA5059072B875EBF00536106 /* model */,
+				FA5059352B89474300536106 /* Api Helpers */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		FA50591A2B87662A00536106 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAA98D7E2B90F8E90097140F /* GroupActivities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA50592F2B88B8D600536106 /* data conversion helper */ = {
+			isa = PBXGroup;
+			children = (
+				FA50592D2B88B82400536106 /* Predicate + Helper.swift */,
+				FA5059302B88C69300536106 /* Color + Helper.swift */,
+			);
+			path = "data conversion helper";
+			sourceTree = "<group>";
+		};
+		FA5059322B892B3800536106 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				FA5059332B892B4D00536106 /* View + modifiers.swift */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		FA5059352B89474300536106 /* Api Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Api Helpers";
+			sourceTree = "<group>";
+		};
+		FA6083722B8DBF70003039B7 /* authentification */ = {
+			isa = PBXGroup;
+			children = (
+				FA5059292B88B02800536106 /* CreateAccountView.swift */,
+				FA50593E2B8D2C9100536106 /* LoginPageView.swift */,
+				FA6083832B8F3EDB003039B7 /* VerificationAccountView.swift */,
+				FA6083752B8DC20F003039B7 /* SigninGoogleHelper.swift */,
+				FAF351DE2B9C742000CCD0A5 /* ForgetPasswordView.swift */,
+				FAF351E82B9D22C900CCD0A5 /* PasswordChangView.swift */,
+				FA707E6E2B9A194300B5B5FF /* auth button */,
+			);
+			path = authentification;
+			sourceTree = "<group>";
+		};
+		FA60837D2B8E2EDD003039B7 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FA60837F2B8E2F62003039B7 /* Nunito.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		FA707E6B2B99ED3700B5B5FF /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				FA50593A2B8D068C00536106 /* AuthentifcationManager + Helper.swift */,
+				FA5059272B88A22D00536106 /* AuthentificationManager + Account.swift */,
+				FAF351E02B9CB4E300CCD0A5 /* AuthentificationManager + ForgotPassword.swift */,
+				FA762BF92B912D2D0096F32D /* ClockModelManager.swift */,
+				FA762BFC2B9284B90096F32D /* UserManager.swift */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		FA707E6E2B9A194300B5B5FF /* auth button */ = {
+			isa = PBXGroup;
+			children = (
+				FA707E6F2B9A24E400B5B5FF /* LoginButtonView.swift */,
+				FA707E6C2B9A06F900B5B5FF /* CreateAccountButton.swift */,
+			);
+			path = "auth button";
+			sourceTree = "<group>";
+		};
+		FA762BFB2B9284A80096F32D /* firestore */ = {
+			isa = PBXGroup;
+			children = (
+				FA762C042B93642C0096F32D /* FirestoreUserAPI.swift */,
+			);
+			path = firestore;
+			sourceTree = "<group>";
+		};
+		FA762C032B9359270096F32D /* firebase auth */ = {
+			isa = PBXGroup;
+			children = (
+				FA5059212B87686F00536106 /* FirebaseAuthAPI.swift */,
+				FA5059362B89485100536106 /* APIAuthErrors.swift */,
+				FA16EF462BA8ECEA006EACF1 /* SignInAppleHelper.swift */,
+			);
+			path = "firebase auth";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,6 +387,12 @@
 			dependencies = (
 			);
 			name = Hendra;
+			packageProductDependencies = (
+				FA50591B2B87662A00536106 /* FirebaseAuth */,
+				FA50591D2B87663A00536106 /* GoogleSignInSwift */,
+				FA762BFE2B9288010096F32D /* FirebaseFirestore */,
+				FA707E652B97E68500B5B5FF /* FirebaseFirestoreSwift */,
+			);
 			productName = Hendra;
 			productReference = FA5058D12B8754E600536106 /* Hendra.app */;
 			productType = "com.apple.product-type.application";
@@ -247,6 +487,8 @@
 			files = (
 				FA5058DC2B8754E700536106 /* Preview Assets.xcassets in Resources */,
 				FA5058D92B8754E700536106 /* Assets.xcassets in Resources */,
+				FA6083802B8E2F62003039B7 /* Nunito.ttf in Resources */,
+				FA5059192B87641F00536106 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,10 +513,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA50593D2B8D0E9D00536106 /* AuthPublisher.swift in Sources */,
+				FAF351E52B9CE2BA00CCD0A5 /* FirestoreCollectionPublisher.swift in Sources */,
 				FA5058DE2B8754E700536106 /* Persistence.swift in Sources */,
+				FA5059372B89485100536106 /* APIAuthErrors.swift in Sources */,
+				FAA98D7D2B90F70D0097140F /* Package.swift in Sources */,
+				FA707E702B9A24E400B5B5FF /* LoginButtonView.swift in Sources */,
+				FA762BFA2B912D2D0096F32D /* ClockModelManager.swift in Sources */,
+				FA5059342B892B4D00536106 /* View + modifiers.swift in Sources */,
+				FA5059312B88C69300536106 /* Color + Helper.swift in Sources */,
+				FA762BFD2B9284B90096F32D /* UserManager.swift in Sources */,
+				FA707E742B9BC83300B5B5FF /* HomePageview.swift in Sources */,
 				FA5058E12B8754E700536106 /* Hendra.xcdatamodeld in Sources */,
+				FA6083762B8DC20F003039B7 /* SigninGoogleHelper.swift in Sources */,
+				FA707E622B96663400B5B5FF /* Network.swift in Sources */,
+				FA762C052B93642C0096F32D /* FirestoreUserAPI.swift in Sources */,
+				FA5059282B88A22D00536106 /* AuthentificationManager + Account.swift in Sources */,
+				FAF351E72B9CE30700CCD0A5 /* FirestoreDocQueryPublisher.swift in Sources */,
+				FA50592E2B88B82400536106 /* Predicate + Helper.swift in Sources */,
+				FA50592A2B88B02800536106 /* CreateAccountView.swift in Sources */,
+				FA50593F2B8D2C9100536106 /* LoginPageView.swift in Sources */,
+				FA5059222B87686F00536106 /* FirebaseAuthAPI.swift in Sources */,
+				FA5059252B877BC600536106 /* GoogleSignData.swift in Sources */,
+				FA5059202B87676D00536106 /* SUser.swift in Sources */,
+				FA50593B2B8D068C00536106 /* AuthentifcationManager + Helper.swift in Sources */,
+				FA707E6D2B9A06F900B5B5FF /* CreateAccountButton.swift in Sources */,
 				FA5058D72B8754E600536106 /* ContentView.swift in Sources */,
+				FAF351E12B9CB4E300CCD0A5 /* AuthentificationManager + ForgotPassword.swift in Sources */,
+				FAF351DF2B9C742000CCD0A5 /* ForgetPasswordView.swift in Sources */,
+				FAF351E92B9D22C900CCD0A5 /* PasswordChangView.swift in Sources */,
+				FA50592C2B88B40300536106 /* UserData + Helper.swift in Sources */,
+				FA16EF472BA8ECEA006EACF1 /* SignInAppleHelper.swift in Sources */,
+				FAF351E32B9CE28C00CCD0A5 /* FirestoreDocPublisher.swift in Sources */,
 				FA5058D52B8754E600536106 /* HendraApp.swift in Sources */,
+				FA6083842B8F3EDB003039B7 /* VerificationAccountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,10 +708,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Hendra/Hendra.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hendra/Preview Content\"";
-				DEVELOPMENT_TEAM = 8957MJT3NY;
+				DEVELOPMENT_TEAM = 3PB3SZ3FNM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Hendra/Info.plist;
@@ -450,6 +723,7 @@
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +731,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = wilfried.gossan.Hendra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,10 +744,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Hendra/Hendra.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hendra/Preview Content\"";
-				DEVELOPMENT_TEAM = 8957MJT3NY;
+				DEVELOPMENT_TEAM = 3PB3SZ3FNM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Hendra/Info.plist;
@@ -483,6 +759,7 @@
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,6 +767,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = wilfried.gossan.Hendra;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -631,6 +909,29 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA50591B2B87662A00536106 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA5059052B875B1300536106 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FA50591D2B87663A00536106 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA5059062B875B8300536106 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		FA707E652B97E68500B5B5FF /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA5059052B875B1300536106 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		FA762BFE2B9288010096F32D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA5059052B875B1300536106 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		FA5058DF2B8754E700536106 /* Hendra.xcdatamodeld */ = {
